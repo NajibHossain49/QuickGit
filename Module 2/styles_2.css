@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+/* Section 1: Solid Background Color */
+#section1 {
+    background-color: #3498db;
+}
+
+/* Section 2: Background Image with No Repeat */
+#section2 {
+    background-image: url('image1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Section 3: Background Image with Repeat */
+#section3 {
+    background-image: url('image2.jpg');
+    background-repeat: repeat;
+}
+
+/* Section 4: Background Image with Size and Position */
+#section4 {
+    background-image: url('image3.jpg');
+    background-size: contain;
+    background-position: bottom right;
+}
+
+
+/* Practice_Task_5 CSS Design */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box1 {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.paragraph1 {
+    border: 5px dashed green;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.image1 {
+    border: 3px solid blue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box1 {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.5);
+}
+
+.box2 {
+    border: 3px dotted green;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 255, 0, 0.5);
+}
+
+.box3 {
+    border: 4px double blue;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 255, 0.5);
+}
+
+.paragraph1 {
+    border: 1px solid black;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+.paragraph2 {
+    border: 2px dashed purple;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px rgba(128, 0, 128, 0.3);
+}
+
+.image1 {
+    border: 5px solid orange;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(255, 165, 0, 0.7);
+}
+
+.image2 {
+    border: 6px groove yellow;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px rgba(255, 255, 0, 0.7);
+}
+
+
+/* Practice_Task_6 CSS Design */
+
+.none {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}

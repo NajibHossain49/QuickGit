@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+/* Header styles */
+header h1 {
+    color: #4CAF50;
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Georgia', serif;
+    margin-top: 20px;
+}
+
+/* Section and paragraph styles */
+main {
+    padding: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 2em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    font-size: 1.2em;
+    text-align: justify;
+    font-family: 'Verdana', sans-serif;
+    margin-bottom: 15px;
+}
+
+/* List styles */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    color: #888;
+    font-size: 1.1em;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+/* Specific list item styles */
+ul li:first-child {
+    color: #E91E63;
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: #3F51B5;
+    font-size: 1.2em;
+}
+
+ul li:nth-child(3) {
+    color: #FF9800;
+    text-transform: uppercase;
+}
+
+

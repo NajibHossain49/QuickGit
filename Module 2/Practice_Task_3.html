@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors Challenge</title>
+    <style>
+        /* Universal selector */
+        * {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Tag selector */
+        h1 {
+            color: blue;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p {
+            margin: 20px;
+            line-height: 1.5;
+        }
+
+        /* Class selector */
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+
+        /* ID selector */
+        #special {
+            color: red;
+            font-size: 1.2em;
+            text-decoration: underline;
+        }
+
+        /* Descendant selector */
+        div p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selectors Challenge</h1>
+    <p>This is a paragraph outside any div. It should have default styles.</p>
+    
+    <div>
+        <h2>Section 1</h2>
+        <p>This is a paragraph inside a div. It should be green.</p>
+    </div>
+    
+    <div>
+        <h2>Section 2</h2>
+        <p class="highlight">This paragraph is inside a div and has the class "highlight".</p>
+    </div>
+
+    <div>
+        <h2>Section 3</h2>
+        <p id="special">This paragraph is inside a div and has the id "special".</p>
+    </div>
+</body>
+</html>
